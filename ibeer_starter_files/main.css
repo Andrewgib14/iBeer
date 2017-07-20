@@ -58,6 +58,7 @@ img {
         - Flexbox property here
     */
     flex-grow: 1;
+    width: 1000px;
 }
 
 #site-header div {
@@ -131,7 +132,8 @@ main {
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
-    width: 70%;
+    width: 65%;
+    transform: translateY(-3%);
 }
 
 aside {
@@ -143,7 +145,8 @@ aside {
         - Flexbox: Set the starting width of this element
         - Use relative positioning to bump this upward
     */
-    width: 20%;
+    width: 15%;
+    transform: translateY(-3%);
 }
 
 aside h3 {
@@ -193,7 +196,9 @@ article img {
     float: right;
     width: 50%;
     height: 50%;
-    padding: 0;
+    padding: 10px;
+    transform: translateY(-10%);
+    margin: 10px;
 }
 
 article footer p {
@@ -202,6 +207,10 @@ article footer p {
         - Style the article footer
         HINT: Look to the article header;
     */
+    border-top: 1px solid #ccc;
+    text-align: center;
+    color: #666;
+    clear: both;
 }
 
 #site-footer {
